@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coding Assessment</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./javascript.js"></script>
+    
 </head>
 
 <body>
@@ -20,17 +20,34 @@
     <section class="container">
         <h1>Test Your Skillz</h1>
         <div id="quiz">
-            <p id="quizquestion"></p>
+        <div id = quizQuestion>
+            
+        </div>
+            
             <div id="button"></div>
         </div>
 
         <button id="submit">Start Here</button>
-        <label id= "label">High Score</label>
+        <div id = "label">
+            <h2>High Score</h2>
+            <ul id = "players">
+                
+            </ul>
+
+        </div>
+        
         <div id="results"></div>
+
+        <div id = "form" class = "form">
+            <label for="name">Enter Name Here</label>
+            <input type="text" name = "name" id = "name">
+            <button id = "highScore">Submit</button>
+        </div>
 
 
     </section>
-
+    <p id = "countdown">10:00</p>
+    <script src="./javascript.js"></script>
 
 </body>
 

@@ -1,5 +1,11 @@
 
 body { background-color: white;
+ display: flex; 
+ justify-content: center;
+ flex-direction: column;
+ align-content: flex-start;
+ flex-wrap: wrap;
+ flex-shrink: 0;
 }
 
 header{
@@ -7,12 +13,42 @@ header{
     margin: 20px;
     outline: red solid 10px;
     height: 400px;
-    width: 1030px;
+    width: 52%;
     text-align: center;
     
     
 }
 h1{color: red;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+}
+
+#submit{
+    padding: 14px 40px ;
+    width: 25%; 
+    text-align: center;
+}
+
+.form{
+    display: none;
+}
+
+p{
+    background-color: white;
+    font-size: 50px;
+    padding: 14px 40px;
+    justify-content: right 100px;
+    display: flex;
+    margin-top: 0px;
+    font: color red;
+    
+    
 
 }
 
